@@ -137,16 +137,20 @@ header {
                 top: -5%;
                 cursor: default;
                
-                a {
-                    text-decoration: none;
+                
+                    
 
                     .nav-list {
                         list-style: none;
                         margin-bottom: 20px;
                         font-weight: 700;
                         font-size: 1.4rem;
-                        color: var(--Very-dark-blue);
                         
+                        
+                        a {
+                            text-decoration: none;
+                            color: var(--Very-dark-blue);
+                        }
 
                         &:hover {
                             transform:  translateY(-3px);
@@ -156,7 +160,7 @@ header {
                     }
 
                     
-                }
+                
             }
             
             &.open {
@@ -343,22 +347,23 @@ main {
                     justify-content: end;
                     height: 100%;
                     width: 100%;
-
-                    a {
-                        text-decoration: none;
+                        
+                    .nav-list {
+                        list-style: none;
+                        margin-bottom: 0px;
+                        font-weight: 400;
+                        font-size: 1rem;
                         padding: 0;
-                        margin-left: 30px;
+                        margin: 0;
 
-                        .nav-list {
-                            list-style: none;
-                            margin-bottom: 0px;
-                            font-weight: 400;
-                            font-size: 1rem;
-                            color: var(--Very-dark-blue);
+                        a {
+                            text-decoration: none;
                             padding: 0;
-                            margin: 0;
+                            margin-left: 30px;
+                            color: var(--Very-dark-blue);
                         }
                     }
+                    
                 }
                 
             
